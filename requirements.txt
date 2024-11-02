@@ -1,6 +1,6 @@
 setuptools==57.5.0
-numpy==1.22.4
-scipy==1.8.0
+numpy==1.23.5
+scipy==1.7.3
 scikit-learn==1.0.2
 python-telegram-bot==13.15
 Cython==0.29.24
