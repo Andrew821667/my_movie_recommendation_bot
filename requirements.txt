@@ -1,6 +1,6 @@
-cython==3.0.0
-numpy==1.24.3
-setuptools==59.8.0
+setuptools<60.0
+Cython
+numpy<1.23
 scipy==1.13.1
 joblib==1.4.2
 scikit-learn==1.0
