@@ -39,9 +39,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         # Ожидается, что пользователь введет числовой ID
         user_id = int(update.message.text)
         recommendations = recommend(model, movie_features, user_id)
-        response = f"Рекомендуемые фильмы (ID): {
-            ', '.join(map(str, suggestions))}"
-            ', '.join(map(str, recommendations))}"
+        response = f"Рекомендуемые фильмы (ID): {', '.join(map(str, suggestions))}"
     except ValueError:
         response = "Пожалуйста, введите числовой ID пользователя."
     except IndexError:
